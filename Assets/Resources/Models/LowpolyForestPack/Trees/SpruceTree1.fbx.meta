@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: SpruceTreeLeaf
-    second: {fileID: 2100000, guid: 20f33b5c48c05be49bda5034e49568d8, type: 2}
+    second: {fileID: 2100000, guid: f225df20f033d6a4ab308cfe0c23c3f4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

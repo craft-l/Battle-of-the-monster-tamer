@@ -15,7 +15,7 @@ D:/unity/project/Battle of the monster tamer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-6021
+14057
 Successfully changed project path to: D:/unity/project/Battle of the monster tamer
 D:/unity/project/Battle of the monster tamer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -48,7 +48,7 @@ D:/unity/project/Battle of the monster tamer
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 105.65 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 126.16 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.0f1c1 (c833db084d5b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1c1/Editor/Data/Resources/UnitySubsystems
@@ -64,90 +64,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008850 seconds.
+Registered in 0.010227 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 105.64 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 117.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.733 seconds
+- Completed reload, in  0.822 seconds
 Domain Reload Profiling:
-	ReloadAssembly (733ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (823ms)
+		BeginReloadAssembly (143ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (520ms)
-			LoadAssemblies (84ms)
+		EndReloadAssembly (536ms)
+			LoadAssemblies (137ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
+			SetupTypeCache (123ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (300ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (322ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (106ms)
+				RefreshPlugins (118ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (131ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012101 seconds.
+Registered in 0.013150 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\unity\project\Battle of the monster tamer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image D:\unity\project\Battle of the monster tamer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 104.14 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 148.35 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.274 seconds
+- Completed reload, in  1.550 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1275ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (1550ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1007ms)
-			LoadAssemblies (107ms)
+		EndReloadAssembly (1238ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (272ms)
+			SetupTypeCache (284ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (525ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (723ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (104ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (247ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (17ms)
+				RefreshPlugins (148ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (307ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (200.1 KB). Loaded Objects now: 4431.
-Memory consumption went from 174.7 MB to 174.5 MB.
-Total: 4.864000 ms (FindLiveObjects: 0.529000 ms CreateObjectMapping: 0.280000 ms MarkObjects: 3.898200 ms  DeleteObjects: 0.155600 ms)
+Unloading 5361 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.8 MB). Loaded Objects now: 5838.
+Memory consumption went from 232.9 MB to 232.1 MB.
+Total: 5.574800 ms (FindLiveObjects: 0.532900 ms CreateObjectMapping: 0.684300 ms MarkObjects: 4.012200 ms  DeleteObjects: 0.344300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -161,68 +161,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 467463.688817 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c23e514d24f6b65fe96946cd87fc526') in 0.013068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ae59281dbf1c86420693b6e5a144c7') in 0.012957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.781032 seconds.
-  path: Assets/Scenes/MainScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fc2d32df34fa4dbac6eb9a060dfe08') in 0.005560 seconds 
+  Time since last request: 522756.544866 seconds.
+  path: Assets/Resources/Material/NatureBlock/Tree/SpruceTreeLeaf.mat
+  artifactKey: Guid(20f33b5c48c05be49bda5034e49568d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Material/NatureBlock/Tree/SpruceTreeLeaf.mat using Guid(20f33b5c48c05be49bda5034e49568d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6946af2e1b51d2bb4f39588c5d162b6d') in 0.142203 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012581 seconds.
+Registered in 0.015520 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\unity\project\Battle of the monster tamer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image D:\unity\project\Battle of the monster tamer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.258 seconds
+- Completed reload, in  1.478 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1259ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (1479ms)
+		BeginReloadAssembly (146ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1004ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (302ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (473ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1218ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (608ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (287ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-				AfterProcessingInitializeOnLoad (17ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (302ms)
+				ProcessInitializeOnLoadMethodAttributes (130ms)
+				AfterProcessingInitializeOnLoad (20ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.68 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.67 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3932 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (192.8 KB). Loaded Objects now: 4434.
-Memory consumption went from 173.4 MB to 173.2 MB.
-Total: 4.244600 ms (FindLiveObjects: 0.608600 ms CreateObjectMapping: 0.542700 ms MarkObjects: 2.941200 ms  DeleteObjects: 0.151200 ms)
+Unloading 5272 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.8 MB). Loaded Objects now: 5880.
+Memory consumption went from 228.9 MB to 228.1 MB.
+Total: 9.137600 ms (FindLiveObjects: 1.328500 ms CreateObjectMapping: 1.237300 ms MarkObjects: 6.016500 ms  DeleteObjects: 0.553100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -234,3 +222,519 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 59.855426 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Trees/SpruceTree1.fbx
+  artifactKey: Guid(0f88b63edf1daed4e860901efb25cdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Trees/SpruceTree1.fbx using Guid(0f88b63edf1daed4e860901efb25cdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ac6af8a9af293b610a5b98ba8dc05d') in 0.103388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Trees/SpruceTree3.fbx
+  artifactKey: Guid(1a7072089b4e9854b81fe02f442c15bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Trees/SpruceTree3.fbx using Guid(1a7072089b4e9854b81fe02f442c15bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce86f969a4716263e8ed2cd8d579799e') in 0.034130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.022676 seconds.
+  path: Assets/Resources/Prefabs/Wood/1.prefab
+  artifactKey: Guid(0b3eba90333430447bb7d5926d98a53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Wood/1.prefab using Guid(0b3eba90333430447bb7d5926d98a53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60142b02f7541fb1e72c58b200117fb0') in 0.018451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 154.928361 seconds.
+  path: Assets/Resources/Sprites/Map/BlockSprite.png
+  artifactKey: Guid(f9bca02c2e72bc84e93db4db4cf3865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/BlockSprite.png using Guid(f9bca02c2e72bc84e93db4db4cf3865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21180a05fe34f24075100e5ee2f5dba') in 0.072249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_03.png
+  artifactKey: Guid(067d49dcf83718c48a873c6475e3a6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_03.png using Guid(067d49dcf83718c48a873c6475e3a6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1df00ce4821278ed281361a3611b5a') in 0.030017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_05.png
+  artifactKey: Guid(19ffb0c772e35cc40b8983447123e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_05.png using Guid(19ffb0c772e35cc40b8983447123e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5158457674ea9cc45e91d484de15ca9a') in 0.029850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_13.png
+  artifactKey: Guid(8738ae9b282a5f644be41a93417a4d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_13.png using Guid(8738ae9b282a5f644be41a93417a4d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98058ac2217e80f1be4c6446979a0b8') in 0.030855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_06.png
+  artifactKey: Guid(a59c12f58a3d4d940b48eb49e1028611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_06.png using Guid(a59c12f58a3d4d940b48eb49e1028611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e81c55b8c37593da203a0901fa0141') in 0.034406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_10.png
+  artifactKey: Guid(e3838347ef9de974d87b9afa3c2d8729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_10.png using Guid(e3838347ef9de974d87b9afa3c2d8729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1bd9a8038cd8e57dd31479e450c052') in 0.032832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_17.png
+  artifactKey: Guid(a534e27808a5e034d9dd11700ee72cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_17.png using Guid(a534e27808a5e034d9dd11700ee72cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7991c3b3ff158698383bfb0daa4694ee') in 0.031267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_04.png
+  artifactKey: Guid(c16fe36a4feb12d49af20100620ac629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_04.png using Guid(c16fe36a4feb12d49af20100620ac629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e206d2a01cb181813dcd6f76550d77') in 0.028602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_DirtRough/Lords_DirtRough.jpg
+  artifactKey: Guid(17a1b0a19a8509d4e9e9279311bba728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_DirtRough/Lords_DirtRough.jpg using Guid(17a1b0a19a8509d4e9e9279311bba728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0a6e38a47b04d874a831c3f3980fc8') in 0.050411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_15.png
+  artifactKey: Guid(66707db8cfd362b489ca5b8ad421a493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_15.png using Guid(66707db8cfd362b489ca5b8ad421a493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68e6fc142e5bb3e6577a0441c974974') in 0.029890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_11.png
+  artifactKey: Guid(2c0b5f2ec1e37fa45962a433b8fbba62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_11.png using Guid(2c0b5f2ec1e37fa45962a433b8fbba62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdca97bfb25056fa462d71b5253c18c') in 0.029712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_02.png
+  artifactKey: Guid(0089a9c2e1fe82c4285968afb0e4e208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_02.png using Guid(0089a9c2e1fe82c4285968afb0e4e208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105bc7a95aa3d892ec5653ce75f57472') in 0.029820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_02.png
+  artifactKey: Guid(ad018c30c0a0b9d44a2a09fe9df1db33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_02.png using Guid(ad018c30c0a0b9d44a2a09fe9df1db33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da0aac0b78ebda2467a2792c83247cc') in 0.032849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_9.png
+  artifactKey: Guid(0c5ba89169240bd428c508f2d9a0ef4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_9.png using Guid(0c5ba89169240bd428c508f2d9a0ef4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5069ce14147424a5bc82e78958f724c3') in 0.029217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Resources/Sprites/Map/testx2.png
+  artifactKey: Guid(b9ccadbe673fa5a4b84110abc715cd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/testx2.png using Guid(b9ccadbe673fa5a4b84110abc715cd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95e478cdbb1f88a0d5b30d4f53b3b24') in 0.026770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_09.png
+  artifactKey: Guid(7d779ebcc4c024140b5be9d028034694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_09.png using Guid(7d779ebcc4c024140b5be9d028034694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b74cbd5cf48bf077f033d0f7eeff8c3') in 0.027912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_15.png
+  artifactKey: Guid(48175059791d3474cba4a58de0e6f2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_15.png using Guid(48175059791d3474cba4a58de0e6f2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03fa0386ab6ab1ae2bb3d9559776546') in 0.032972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_13.png
+  artifactKey: Guid(7a9302cae6be1014c8757404b0e4b776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_13.png using Guid(7a9302cae6be1014c8757404b0e4b776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5bf4190a64c69ad2f359374b9d74ed') in 0.032584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_07.png
+  artifactKey: Guid(093e464044ddeb34ca95b84034f8eba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_07.png using Guid(093e464044ddeb34ca95b84034f8eba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e65680ac3008d5c5f9c84851d863dce') in 0.026501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Sprites/Map/test2x.png
+  artifactKey: Guid(5562a1d6a66011f4886021dca36889c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/test2x.png using Guid(5562a1d6a66011f4886021dca36889c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bfdc072b0d274cd522f622ee5d0574') in 0.032244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_01.png
+  artifactKey: Guid(24da38fb65f60754bb8399c6a486affd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_01.png using Guid(24da38fb65f60754bb8399c6a486affd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5a874977d692572d3eeef248f93560') in 0.027974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_11.png
+  artifactKey: Guid(0dc1bff72c9f9df45b1329ae09084906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_11.png using Guid(0dc1bff72c9f9df45b1329ae09084906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78eeb4d4ec24b246b13ede4c3bdebc15') in 0.030234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 675.658329 seconds.
+  path: Assets/Piprline/New Universal Render Pipeline Asset_Renderer.asset
+  artifactKey: Guid(d47642b22e8c696469f4b4bac1919bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Piprline/New Universal Render Pipeline Asset_Renderer.asset using Guid(d47642b22e8c696469f4b4bac1919bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d77f063af9f2bb0918dc6f1312bbaa') in 0.053603 seconds 
+========================================================================
+Received Prepare
+Switching render pipeline 00000000000000000000000000000000 -> 47cf084e22bd619458e2dd1aac03a130
+Refreshing native plugins compatible for Editor in 12.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 79 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.8 MB). Loaded Objects now: 5943.
+Memory consumption went from 129.2 MB to 128.4 MB.
+Total: 6.323000 ms (FindLiveObjects: 0.531000 ms CreateObjectMapping: 0.635600 ms MarkObjects: 4.578200 ms  DeleteObjects: 0.576400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 203.781508 seconds.
+  path: Assets/Piprline/Universal Render Pipeline Asset.asset
+  artifactKey: Guid(47cf084e22bd619458e2dd1aac03a130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Piprline/Universal Render Pipeline Asset.asset using Guid(47cf084e22bd619458e2dd1aac03a130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202a222610b6ea5a0366af4f3973b834') in 0.012416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 215.222774 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_23.fbx
+  artifactKey: Guid(54730e63652607c40a8907c5605e882b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_23.fbx using Guid(54730e63652607c40a8907c5605e882b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bceaa7f52b40c121949442843154556d') in 1.771704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock6.fbx
+  artifactKey: Guid(44d647d29594a444186e06f24d1d1fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock6.fbx using Guid(44d647d29594a444186e06f24d1d1fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b0471a953551b36175636c44aec7f8') in 0.044017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Resources/Material/NatureBlock/Rock/rockTexture2.mat
+  artifactKey: Guid(e2ee4e610266f114187a0dcc78f470e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Material/NatureBlock/Rock/rockTexture2.mat using Guid(e2ee4e610266f114187a0dcc78f470e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a748cb52f5af15f20672e64af9de87') in 0.019972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/BigRock5.fbx
+  artifactKey: Guid(c0e9bd375d86a9b4e8889160a697b12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/BigRock5.fbx using Guid(c0e9bd375d86a9b4e8889160a697b12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697b7a32d9e0a86457c462d6699eecb0') in 0.059536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_15.fbx
+  artifactKey: Guid(70c3dae3e3a397e4cbbc7fc53bebefa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_15.fbx using Guid(70c3dae3e3a397e4cbbc7fc53bebefa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa33203200e76179d1bf9f63f078159') in 0.056496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_16.fbx
+  artifactKey: Guid(399d834cefdc55a469817c4787c00631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_16.fbx using Guid(399d834cefdc55a469817c4787c00631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4489be52475f75151f3522772d6fd615') in 0.048984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resources/Material/NatureBlock/Rock/rockTexture1.mat
+  artifactKey: Guid(5e9a0037ac54c5548b64ab211240a79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Material/NatureBlock/Rock/rockTexture1.mat using Guid(5e9a0037ac54c5548b64ab211240a79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bd170b470f6800d2d495d6a5a3cfc6') in 0.021193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock2.fbx
+  artifactKey: Guid(3719d523c5cd6184d9798ad1ae81f391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock2.fbx using Guid(3719d523c5cd6184d9798ad1ae81f391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bd4a07de471976ddccb814d663f419') in 0.031673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock4.fbx
+  artifactKey: Guid(6a82e760c074eb044a4db51bef9b6989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock4.fbx using Guid(6a82e760c074eb044a4db51bef9b6989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4711a01e1a4945a0db194eaaf1ba85c') in 0.028127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_10.fbx
+  artifactKey: Guid(99ac366303d007c47ae2ff20c556fd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_10.fbx using Guid(99ac366303d007c47ae2ff20c556fd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6707383152ddee074a5af9ade1b84eaa') in 0.031786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock1.fbx
+  artifactKey: Guid(1dc4cdacc31010e41a181a5a551785fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock1.fbx using Guid(1dc4cdacc31010e41a181a5a551785fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82a6f75d88f84ee89127a6fcabf6499') in 0.025731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/BigRock3.fbx
+  artifactKey: Guid(0527e7615b3a593439f8f7d30bd4d230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/BigRock3.fbx using Guid(0527e7615b3a593439f8f7d30bd4d230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6342e173e24db43581506e242a086bc') in 0.027980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock8.fbx
+  artifactKey: Guid(6581d35ed93fbcf4583b2d5fd34e5b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock8.fbx using Guid(6581d35ed93fbcf4583b2d5fd34e5b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bdc2ce9dad0e7a14a0896708e22aef') in 0.028550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_22.fbx
+  artifactKey: Guid(1070fb51490a7724a94ce5bcfbfe0052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_22.fbx using Guid(1070fb51490a7724a94ce5bcfbfe0052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f11d6f53cc7436a6945614d36fa1d0c') in 0.032915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_21.fbx
+  artifactKey: Guid(e9574808e07bb644782659497da04a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_21.fbx using Guid(e9574808e07bb644782659497da04a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec296a288280bc858f2768cc4cb2a568') in 0.027484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock5.fbx
+  artifactKey: Guid(a38fc138353cf244ea2ba4fdd2b0f778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock5.fbx using Guid(a38fc138353cf244ea2ba4fdd2b0f778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1576ee8775e8023b627d0a45d574ab5') in 0.028235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock7.fbx
+  artifactKey: Guid(eabfb07d108575547874193ef43da616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock7.fbx using Guid(eabfb07d108575547874193ef43da616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65fb4c3a7b099662c0737f60fdef59f') in 0.029935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock9.fbx
+  artifactKey: Guid(4cd407038214a544d938a7e6a619f782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock9.fbx using Guid(4cd407038214a544d938a7e6a619f782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29aef872894fa320fda95552cb6f9c1') in 0.029426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Material/NatureBlock/Tree/SpruceTreeTrunk.mat
+  artifactKey: Guid(3b9d8ef6dba3d8448bb9cf2994870b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Material/NatureBlock/Tree/SpruceTreeTrunk.mat using Guid(3b9d8ef6dba3d8448bb9cf2994870b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cf1f677a5f36315549134a23a5030a') in 0.016494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_11.fbx
+  artifactKey: Guid(49a46f7c25c23d444bb781aaf276809b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_11.fbx using Guid(49a46f7c25c23d444bb781aaf276809b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810bad81217f80bf7fe41ca0c0ec1dbf') in 0.027132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock3.fbx
+  artifactKey: Guid(76397d1ba2f8bb0469fd17fa12c450d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock3.fbx using Guid(76397d1ba2f8bb0469fd17fa12c450d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac5148e5a464a00abad77a532a85199') in 0.031325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_18.fbx
+  artifactKey: Guid(6bc0f4b5a32b7134286575697a6478d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_18.fbx using Guid(6bc0f4b5a32b7134286575697a6478d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecee4b241b116a34bf2442e1643bc3fd') in 0.029728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_17.fbx
+  artifactKey: Guid(7463a8856c69c0a4ea28766a47bc4c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_17.fbx using Guid(7463a8856c69c0a4ea28766a47bc4c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6fd28e25a0a35cdcf24a141996458c') in 0.028228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_12.fbx
+  artifactKey: Guid(7d3d807f56bd5044a833365808988c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_12.fbx using Guid(7d3d807f56bd5044a833365808988c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ceca1148730012ea81f187a300553e') in 0.029136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_20.fbx
+  artifactKey: Guid(c4da8af215e3e0544a40624880f9c0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/Rock_20.fbx using Guid(c4da8af215e3e0544a40624880f9c0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b59364d3c5ca2844adb14be0f1b2cc') in 0.027997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.284832 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a2ce4969696b733449a5a3c3548a98') in 0.054118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Trees/DeadOak1.fbx
+  artifactKey: Guid(b61464bfbcd5db047af0bbab9f12914d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Trees/DeadOak1.fbx using Guid(b61464bfbcd5db047af0bbab9f12914d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821e9ee309ddbba5ce291cbe987e67b1') in 0.043733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Trees/DeadOak2.fbx
+  artifactKey: Guid(96c0d4833cb7ee645b47b30a6750c9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Trees/DeadOak2.fbx using Guid(96c0d4833cb7ee645b47b30a6750c9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bf29c10564387fae410d0baadbe6cb') in 0.040821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Material/NatureBlock/Tree/OakTreeLeaf.mat
+  artifactKey: Guid(a419830ae71e74b4a8bdad5ce555c50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Material/NatureBlock/Tree/OakTreeLeaf.mat using Guid(a419830ae71e74b4a8bdad5ce555c50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242fd72a0fcf57226e789af617ecf91c') in 0.020019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4d879cd85da057fdb448c77e062dda') in 0.048328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/BigRock4.fbx
+  artifactKey: Guid(91b1f74b15b2f4041a826d64cd014ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/BigRock4.fbx using Guid(91b1f74b15b2f4041a826d64cd014ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76da9d5d49569de70d9d8b6de10f2a13') in 0.036624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1ea0d48471187d1a54dfdae4404fe3') in 0.060122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Resources/Material/GridMap/LordsGrassDirt/LordsGrassDirt.mat
+  artifactKey: Guid(c32179fb0330a8348ae5ca5b5cde6e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Material/GridMap/LordsGrassDirt/LordsGrassDirt.mat using Guid(c32179fb0330a8348ae5ca5b5cde6e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9386002fad644fee088ddade6e2632d') in 0.017764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Trees/DeadSpruce1.fbx
+  artifactKey: Guid(ca7de7ce2a8f9024290825084b2a60ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Trees/DeadSpruce1.fbx using Guid(ca7de7ce2a8f9024290825084b2a60ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6b29a34711b7e7d0fed9cf10cb9cda') in 0.033147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.078002 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_06.png
+  artifactKey: Guid(a59c12f58a3d4d940b48eb49e1028611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_06.png using Guid(a59c12f58a3d4d940b48eb49e1028611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f910ed8c15dd52ede135f88e600c1340') in 0.024212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.446928 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_03.png
+  artifactKey: Guid(067d49dcf83718c48a873c6475e3a6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_03.png using Guid(067d49dcf83718c48a873c6475e3a6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64b13a4b78e5f1ac835c3fedc6adcd9') in 0.029245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_05.png
+  artifactKey: Guid(19ffb0c772e35cc40b8983447123e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_05.png using Guid(19ffb0c772e35cc40b8983447123e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fd5214a1585dc9b9e47323d463955d') in 0.025826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_10.png
+  artifactKey: Guid(e3838347ef9de974d87b9afa3c2d8729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_10.png using Guid(e3838347ef9de974d87b9afa3c2d8729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64453294ec70f9903dfbc4111fd0602') in 0.031211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_10.png
+  artifactKey: Guid(3dc1a788a02e00f439b4fb17eb899813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_10.png using Guid(3dc1a788a02e00f439b4fb17eb899813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8525c029aa32398a8a40fe6dcf95ea') in 0.020932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_12.png
+  artifactKey: Guid(bd5b444b1069a324a8d79ec552ab965c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_12.png using Guid(bd5b444b1069a324a8d79ec552ab965c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ffd201e3641c4af46b4727a25a8e16') in 0.023629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_15.png
+  artifactKey: Guid(66707db8cfd362b489ca5b8ad421a493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_15.png using Guid(66707db8cfd362b489ca5b8ad421a493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7de65e3f764130348c7bb70335af64') in 0.024663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_02.png
+  artifactKey: Guid(0089a9c2e1fe82c4285968afb0e4e208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_02.png using Guid(0089a9c2e1fe82c4285968afb0e4e208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9c3f5ec461f1f5a81b9d03bbd20f05') in 0.020773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_16.png
+  artifactKey: Guid(b6e0349683146b548b0098a767452846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_16.png using Guid(b6e0349683146b548b0098a767452846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd35fa3b247800e6e5d3cd7c98fad20') in 0.023188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_13.png
+  artifactKey: Guid(7a9302cae6be1014c8757404b0e4b776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_13.png using Guid(7a9302cae6be1014c8757404b0e4b776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb589d8f88c846c5fb21867213dcda4b') in 0.022242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_14.png
+  artifactKey: Guid(b66ac0032e8779e4f920c677b4411709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_Grass/images/Lords_Grass_0_14.png using Guid(b66ac0032e8779e4f920c677b4411709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89897b565c34581de8720557c75d9de2') in 0.020950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.534475 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/TreesTexture/DeadOakTreeTrunk.png
+  artifactKey: Guid(4a9d8304c00b30e498195588abf491c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/TreesTexture/DeadOakTreeTrunk.png using Guid(4a9d8304c00b30e498195588abf491c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5822076c12bc255d4d8536443aa4c4') in 0.030615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Sprites/Map/test.png
+  artifactKey: Guid(0676264493fafed45b85b961c4893a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/test.png using Guid(0676264493fafed45b85b961c4893a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebfa98448e9d182e9946f099a148fd2') in 0.023170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Sprites/Map/test2x.png
+  artifactKey: Guid(5562a1d6a66011f4886021dca36889c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/test2x.png using Guid(5562a1d6a66011f4886021dca36889c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b689e1eb25ea49a3e43e31a6018f3f') in 0.021553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Sprites/Map/LordsMap/Lords_DirtGrass/Lords_DirtGrass.jpg
+  artifactKey: Guid(7edfd0112e0ac8b4eac7568e8e9f7b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/LordsMap/Lords_DirtGrass/Lords_DirtGrass.jpg using Guid(7edfd0112e0ac8b4eac7568e8e9f7b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1648a1706f8711e6f60cb0215d98bb59') in 0.052553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.118961 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Rocks/BigRock2.fbx
+  artifactKey: Guid(64f81bb727d4a4d47bf41e09ca623b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Rocks/BigRock2.fbx using Guid(64f81bb727d4a4d47bf41e09ca623b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6214f714baf64b9ced5b3cddb3c7a61b') in 0.036943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.644360 seconds.
+  path: Assets/Resources/Material/NatureBlock/Tree/SpruceTreeTrunk.mat
+  artifactKey: Guid(3b9d8ef6dba3d8448bb9cf2994870b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Material/NatureBlock/Tree/SpruceTreeTrunk.mat using Guid(3b9d8ef6dba3d8448bb9cf2994870b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58832b39ec4efcdd912439c2cddd7c5b') in 1.825772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.954583 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Trees/OakTree1.fbx
+  artifactKey: Guid(f55acbd4a4cf7624ea248b69ff9638ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Trees/OakTree1.fbx using Guid(f55acbd4a4cf7624ea248b69ff9638ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e9da7678afc8cc24fabf9a2ad6e98c') in 0.022398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Trees/SpruceTree3.fbx
+  artifactKey: Guid(1a7072089b4e9854b81fe02f442c15bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Trees/SpruceTree3.fbx using Guid(1a7072089b4e9854b81fe02f442c15bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c913bc8b3759aa807e4806c969d5a0f3') in 0.033384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Resources/Models/LowpolyForestPack/Trees/SpruceTree2.fbx
+  artifactKey: Guid(0cd2d9d5993ff7f44a3590e19acece48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Models/LowpolyForestPack/Trees/SpruceTree2.fbx using Guid(0cd2d9d5993ff7f44a3590e19acece48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d26c584f12e947a606e92ca8c879e1') in 0.027276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.375353 seconds.
+  path: Assets/Resources/Prefabs/Wood/2.prefab
+  artifactKey: Guid(2f36c2dbf9a38bb4293da25c7588de2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Wood/2.prefab using Guid(2f36c2dbf9a38bb4293da25c7588de2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6917351b042bd4cc80a51f8759642a56') in 0.023799 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

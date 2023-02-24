@@ -33,7 +33,26 @@ public class GridMapBuilder : MonoBehaviour
             Debug.Log("GridMapBuilder:data save");
             GridMapGrassData gridMapGrassData = new GridMapGrassData();
             //gridMapGrassData.GrassMapValueData = gridMap.GetComponent<GridMapGrass>().MapValue;
-            GameManager.Instance.saveManager.SaveByJson(gridMapGrassData,"GridMapGrassDataPath");
+            for(int x = 0; x < Settings.width; x++)
+            {
+                for(int z = 0; z < Settings.height;z++)
+                {
+                    System.Random random = new System.Random();
+                    if(random.Next(0,3)==1)
+                    {
+                        gridMap.GetComponent<GridMapGrass>().UpdateMapVisual(new Vector2Int(x,z),true);
+                    }
+                   
+                }
+            }
+            for(int x = 0; x < Settings.width; x++)
+            {
+                for(int z = 0; z < Settings.height;z++)
+                {
+                    gridMapGrassData.GrassMapValueData.Add(gridMap.GetComponent<GridMapGrass>().MapValue[x,z]);
+                }
+            }
+            GameManager.Instance.saveManager.SaveByJson(gridMapGrassData,"GridMapGrassData.txt");
         }
     }
     
