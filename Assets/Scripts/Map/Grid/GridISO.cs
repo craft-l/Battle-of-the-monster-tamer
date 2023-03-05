@@ -42,7 +42,7 @@ public class GridISO <TGridObject>{
             {
                 for(int z = 0; z < gridArray.GetLength(1); z++)
                 {
-                    debugTextArray[x,z] = Utilities.CreateWorldText(gridArray[x,z]?.ToString(),null,LogicToWorld(x,z) - new Vector3(0,0,offset.y));
+                    debugTextArray[x,z] = Utilities.CreateWorldText(gridArray[x,z]?.ToString(),null,LogicToWorldOffsetZ(x,z));
                     Debug.DrawLine(LogicToWorld(x,z),LogicToWorld(x,z)-new Vector3(Settings.offsetX,0,Settings.offsetZ),Color.white,100f);
                     Debug.DrawLine(LogicToWorld(x,z),LogicToWorld(x,z)+new Vector3(Settings.offsetX,0,-Settings.offsetZ),Color.white,100f);
                 }
@@ -99,6 +99,10 @@ public class GridISO <TGridObject>{
     public Vector3 LogicToWorld(int u, int v)
     {
         return Utilities.LogicToWorldSkewed(u,v,originPosition);
+    }
+    public Vector3 LogicToWorldOffsetZ(int u, int v)
+    {
+        return Utilities.LogicToWorldSkewedOffestZ(u,v,originPosition);
     }
 
     public Vector2Int WorldToLogic(Vector3 worldPos)

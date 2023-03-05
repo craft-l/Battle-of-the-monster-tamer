@@ -14,7 +14,7 @@ public class Utilities
     {
         return u%2 == 1? new Vector3((u-v-0.5f) * Settings.offsetX,0,-((u+v+0.5f)*Settings.offsetZ)) + origin:new Vector3((u-v) * Settings.offsetX,0,-((u+v)*Settings.offsetZ)) + origin;
     }
-
+    //格子中心
     public static Vector3 LogicToWorldSkewedOffestZ(int u, int v, Vector3 origin = default(Vector3))
     {
         return u%2 == 1? new Vector3((u-v-0.5f) * Settings.offsetX,0,-((u+v+1.5f)*Settings.offsetZ)) + origin:new Vector3((u-v) * Settings.offsetX,0,-((u+v+1)*Settings.offsetZ)) + origin;
@@ -24,7 +24,7 @@ public class Utilities
     {
         return new Vector3((v.x-v.y) * Settings.offsetX,0,-((v.x+v.y)*Settings.offsetZ)) + origin;
     }
-    
+    //顶点
     public static Vector3 LogicToWorldSkewed(Vector2 v, Vector3 origin = default(Vector3))
     {
         return v.x%2 == 1? new Vector3((v.x-v.y-0.5f) * Settings.offsetX,0,-((v.x+v.y+0.5f)*Settings.offsetZ)) + origin:new Vector3((v.x-v.y) * Settings.offsetX,0,-((v.x+v.y)*Settings.offsetZ)) + origin;

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{f0066c37-dde3-efff-4c96-e574bd5354f5}</ProjectGuid>
+    <ProjectGuid>{035ac3c7-86b7-bf30-cacc-c0e7f27532d4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -36,30 +36,49 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Test\MoveTest.cs" />
+     <Compile Include="Assets\Sproto\sproto-Csharp\src\SprotoTypeDeserialize.cs" />
      <Compile Include="Assets\Scripts\Map\Grid\Data\GridMap\GridMapGrassData.cs" />
      <Compile Include="Assets\Scripts\Map\PathFinding\PathNode.cs" />
-     <Compile Include="Assets\Scripts\Test\test.cs" />
+     <Compile Include="Assets\Sproto\sproto-Csharp\src\SprotoPack.cs" />
+     <Compile Include="Assets\Scripts\Test\MeshTest.cs" />
+     <Compile Include="Assets\Sproto\sproto-Csharp\src\SprotoTypeSize.cs" />
+     <Compile Include="Assets\Sproto\sproto-Unity\sproto-Unity\NetCore.cs" />
+     <Compile Include="Assets\Sproto\sproto-Csharp\src\Package.cs" />
      <Compile Include="Assets\Scripts\Map\Grid\GridMap\GridMapGrass.cs" />
      <Compile Include="Assets\Scripts\Map\Grid\Data\Block\BlockData.cs" />
      <Compile Include="Assets\Scripts\Map\Grid\Debug\GridMapSingle.cs" />
      <Compile Include="Assets\Scripts\Map\Grid\GridBlock\Block\BaseBlock.cs" />
+     <Compile Include="Assets\Sproto\sproto-Csharp\src\ProtocolFunctionDictionary.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Troops\Movement\Movement.cs" />
      <Compile Include="Assets\Scripts\Map\Grid\GridISO.cs" />
+     <Compile Include="Assets\Sproto\sproto-Csharp\src\SprotoStream.cs" />
      <Compile Include="Assets\Scripts\Map\Grid\Debug\GridMapBuilder.cs" />
      <Compile Include="Assets\Scripts\Test\TestPathFinding.cs" />
+     <Compile Include="Assets\Sproto\sproto-Csharp\src\SprotoTypeBase.cs" />
      <Compile Include="Assets\Scripts\Test\TestSaveManager.cs" />
+     <Compile Include="Assets\Sproto\sproto-Unity\sproto-Unity\NetSender.cs" />
      <Compile Include="Assets\Scripts\Manager\MonobehaviorManager\GameManager.cs" />
      <Compile Include="Assets\Scripts\Utilites\Enums.cs" />
+     <Compile Include="Assets\Sproto\sproto-Csharp\src\SprotoTypeSerialize.cs" />
+     <Compile Include="Assets\Sproto\sproto-Csharp\src\ProtocolBase.cs" />
      <Compile Include="Assets\Scripts\Map\Grid\GridBlock\GridBlock.cs" />
      <Compile Include="Assets\Scripts\Manager\NomalManager\CursorManager.cs" />
+     <Compile Include="Assets\Sproto\sproto-Csharp\src\SprotoTypeFieldOP.cs" />
+     <Compile Include="Assets\Sproto\sproto-Csharp\src\SprotoRpc.cs" />
      <Compile Include="Assets\Scripts\Map\Grid\GridMap\GridMapDirt.cs" />
      <Compile Include="Assets\Scripts\Utilites\Utilities.cs" />
+     <Compile Include="Assets\Sproto\sproto-Csharp\src\SprotoTypeReader.cs" />
+     <Compile Include="Assets\Sproto\sproto-Unity\sproto-Unity\NetReceiver.cs" />
      <Compile Include="Assets\Scripts\Utilites\GridGizmos.cs" />
      <Compile Include="Assets\Scripts\Utilites\Settings.cs" />
      <Compile Include="Assets\Scripts\Map\PathFinding\Pathfinding.cs" />
      <Compile Include="Assets\Scripts\Utilites\MeshUtils.cs" />
      <Compile Include="Assets\Scripts\Utilites\EventHandler.cs" />
      <Compile Include="Assets\Scripts\Manager\NomalManager\SaveManager.cs" />
+     <Compile Include="Assets\Sproto\protocol\gen_cs\gamesproto.cs" />
+     <Compile Include="Assets\Scripts\Test\SkynetTest.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -328,22 +347,22 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.0f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.Unsafe.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.0f1c1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -712,165 +731,165 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.0f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PPv2URPConverters">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>D:\unity\project\Battle of the monster tamer\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>D:\unity\project\BattleOfTheMonsterTamer\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.UniversalToonShader.Urp.Editor.csproj">
-      <Project>{0895d5e7-8b68-6c94-1c89-0e45f685818c}</Project>
+      <Project>{2d99f3d0-5761-2dae-730f-ea5546422318}</Project>
       <Name>Unity.UniversalToonShader.Urp.Editor</Name>
     </ProjectReference>
   </ItemGroup>

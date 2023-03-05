@@ -44,7 +44,9 @@ public class Pathfinding
             List<Vector3> vectorPath = new List<Vector3>();
             foreach(PathNode pathNode in path)
             {
-                vectorPath.Add(grid.LogicToWorld(pathNode.u,pathNode.v));
+                vectorPath.Add(grid.LogicToWorldOffsetZ(pathNode.u,pathNode.v));
+                Debug.Log("pathfinding:logic->"+pathNode.u+","+pathNode.v);
+                Debug.Log("pathfinding:World->"+grid.LogicToWorldOffsetZ(pathNode.u,pathNode.v));
             }
             return vectorPath;
         }
@@ -155,7 +157,7 @@ public class Pathfinding
         */
     }
 
-    //TODO改成堆
+    //TODO转移至服务器再进行优化
     private PathNode GetLowestCostNode(List<PathNode> pathNodeList)
     {
         PathNode lowestFcostNode = pathNodeList[0];
