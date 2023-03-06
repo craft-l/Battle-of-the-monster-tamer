@@ -17,6 +17,7 @@ public class GridBlock : MonoBehaviour
 
     private void Update()
     {
+        /*
         if(Input.GetKeyDown(KeyCode.Q))
         {
             SaveDataByJson();
@@ -28,7 +29,7 @@ public class GridBlock : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.E))
         {
             BlockBuildingInit();
-        }
+        }*/
     }
 
     private void GridInit()
@@ -43,7 +44,6 @@ public class GridBlock : MonoBehaviour
         {
             for(int z = 0; z < Settings.height; z++)
             {
-                //Debug.Log("GridBlock:"+path+grid.GetGridObject(x,z).mBlockType.ToString()+"/"+grid.GetGridObject(x,z).mLevel.ToString());
                 if(grid.GetGridObject(x,z).mBlockType != BlockType.Empty)
                 {
                     blockBuilding[x,z] = Instantiate(Resources.Load<GameObject>(path+grid.GetGridObject(x,z).mBlockType.ToString()+"/"+grid.GetGridObject(x,z).mLevel.ToString()),Utilities.LogicToWorldSkewedOffestZ(x,z),Quaternion.identity,transform);      

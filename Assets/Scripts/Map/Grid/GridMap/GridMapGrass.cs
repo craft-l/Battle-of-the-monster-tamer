@@ -14,23 +14,17 @@ public class GridMapGrass : MonoBehaviour
     void MapValueInit()
     {
         GridMapGrassData gridMapGrassData = new GridMapGrassData();
-        //gridMapGrassData = GameManager.Instance.saveManager.ReadData<GridMapGrassData>("GridMapGrassData.txt");
         gridMapGrassData = GameManager.Instance.saveManager.LoadFromJson<GridMapGrassData>("GridMapGrassData.txt");
         if(gridMapGrassData.GrassMapValueData.ToArray().Length != 0)//&&gridMapGrassData.GrassMapValueData.Length != 0)
         {
-            //MapValue = gridMapGrassData.GrassMapValueData;
-            //MapValue = new Vector2Int[Settings.width,Settings.height];       
             for(int i = 0; i < Settings.width; i++)
             {
                 for(int j = 0 ; j < Settings.height; j++)
                 {
                     int index = i * Settings.height + j;
                     MapValue[i,j] = gridMapGrassData.GrassMapValueData[index];
-                    //Debug.Log("GridMapGrass:"+gridMapGrassData.GrassMapValueData[index]);//.GrassMapValueData);
                 }
             }
-            //Debug.Log("GridMapGrass:  not null");
-            
         }else{
             Debug.Log("GridMapGrass: gridMapGrassData length == 0");
         }
@@ -46,7 +40,6 @@ public class GridMapGrass : MonoBehaviour
         Mesh mesh = new Mesh();
         int[] triangles;
 
-        //MapValue = new Vector3[Settings.width,Settings.height];
         Vector3[] vertices;
         Vector2[] uv;
         Vector2 uv00;

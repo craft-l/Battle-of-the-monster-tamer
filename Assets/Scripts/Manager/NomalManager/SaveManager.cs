@@ -4,7 +4,7 @@ using UnityEngine;
 public class SaveManager {
     //private static readonly string SVAE_PATH = Application.persistentDataPath + "/Data/";
     private static readonly string SVAE_PATH = Application.dataPath + "/Data/";
-    
+
     public void SaveByJson(object data,string saveFileName)
     {
         string json = JsonUtility.ToJson(data);
@@ -48,7 +48,7 @@ public class SaveManager {
     public void DeleteSaveFile(string saveFileName)
     {
         string path = Path.Combine(SVAE_PATH,saveFileName);
-        
+
         try{
             File.Delete(path);
         }catch(System.Exception exception)
