@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CursorManager
+public class CursorManager : BaseManager
 {
     public static Vector3 MouseWorldPosition => CursorManager.GetMouseWorldPosition_Instance();//GameManager.Instance.cursorManager.GetMouseWorldPosition_Instance();
     public bool mouseClick = false;

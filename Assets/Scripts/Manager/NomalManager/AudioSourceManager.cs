@@ -5,7 +5,7 @@ using UnityEngine;
 /// <summary>
 /// 控制音乐、音效播放
 /// </summary>
-public class AudioSourceManager
+public class AudioSourceManager : BaseManager
 {
 
     private AudioSource[] audioSource;//0.播放BGMusic 1.播放特效音

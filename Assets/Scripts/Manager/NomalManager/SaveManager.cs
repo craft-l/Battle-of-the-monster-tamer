@@ -1,7 +1,8 @@
 using System.IO;
 using UnityEngine;
 
-public class SaveManager {
+public class SaveManager : BaseManager
+ {
     //private static readonly string SVAE_PATH = Application.persistentDataPath + "/Data/";
     private static readonly string SVAE_PATH = Application.dataPath + "/Data/";
 

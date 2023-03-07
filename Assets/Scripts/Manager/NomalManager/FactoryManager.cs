@@ -5,7 +5,7 @@ using UnityEngine;
 /// <summary>
 /// 工厂管理
 /// </summary>
-public class FactoryManager
+public class FactoryManager : BaseManager
 {
     public Dictionary<FactoryType, IBaseFactory> factoryDict = new Dictionary<FactoryType, IBaseFactory>();
     public AudioClipFactory audioClipFactory;

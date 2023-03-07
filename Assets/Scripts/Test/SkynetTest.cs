@@ -21,6 +21,12 @@ public class SkynetTest : MonoBehaviour
                 SendSayHello();
             }
         });
+        NetReceiver.AddHandler<Protocol.heartbeat>((data) =>
+        {
+            Debug.Log("收到服务端的heartbeat消息");
+            return null;
+        });
+
     }
 
     // Update is called once per frame

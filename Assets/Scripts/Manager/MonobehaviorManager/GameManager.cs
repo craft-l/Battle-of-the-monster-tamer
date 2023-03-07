@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using UnityEngine;
 
 /// <summary>
@@ -10,6 +11,9 @@ public class GameManager : MonoBehaviour
     public AudioSourceManager audioSourceManager;
     public FactoryManager factoryManager;
     public PlayerManager playerManager;
+    public CameraManager cameraManager;
+    public ClientManager clientManager;
+    public UIManager mUIManager;
 
     private static GameManager _instance;
 
@@ -20,20 +24,38 @@ public class GameManager : MonoBehaviour
             return _instance;
         }
     }
-
-    private void Awake()
+    private void CreateMgr()
     {
-        DontDestroyOnLoad(gameObject);
-        _instance = this;
         cursorManager = new CursorManager();
         saveManager = new SaveManager();
         audioSourceManager = new AudioSourceManager();
         factoryManager = new FactoryManager();
         playerManager = new PlayerManager();
+        cameraManager = new CameraManager();
+        clientManager = new ClientManager();
+    }
+
+    private void OnInit()
+    {
+        cameraManager.OnInit();
+    }
+
+    private void OnUpdate()
+    {
+        cameraManager.OnUpdate();
+    }
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+        _instance = this;
+        CreateMgr();
+        OnInit();
     }
 
     private void Update()
     {
+        OnUpdate();
     }
 
     public GameObject CreateItem(GameObject item, Vector3 pos = default(Vector3), Quaternion quaternion = default(Quaternion))
