@@ -1,0 +1,5 @@
+/skynet
+/coredump
+*.so
+*.o
+origin

@@ -1,0 +1,26 @@
+thread = 8
+root = "$ROOT/"
+
+cpath = root.."skynet/cservice/?.so"
+
+bootstrap = "snlua bootstrap"
+
+start = "main"
+
+logger = nil
+harbor = 0
+
+lualoader = root.."skynet/lualib/loader.lua"
+
+luaservice = root.."skynet/service/?.lua;"..
+             root.."service/?.lua;"..
+             root.."test/?.lua"
+
+lua_path = root.."lualib/?.lua;"..
+           root.."skynet/lualib/?.lua;"..
+           root.."game/proto/?.lua;"..
+           root.."game/?.lua"
+
+lua_cpath = root.."skynet/luaclib/?.so;"..
+            root.."luaclib/timer/?.so;"..
+            root.."luaclib/sort/?.so"
