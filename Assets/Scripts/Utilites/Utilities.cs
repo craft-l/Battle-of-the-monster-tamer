@@ -1,3 +1,4 @@
+using System.Net.Mail;
 using UnityEngine;
 using System;
 
@@ -15,9 +16,15 @@ public class Utilities
         return u%2 == 1? new Vector3((u-v-0.5f) * Settings.offsetX,0,-((u+v+0.5f)*Settings.offsetZ)) + origin:new Vector3((u-v) * Settings.offsetX,0,-((u+v)*Settings.offsetZ)) + origin;
     }
     //格子中心
-    public static Vector3 LogicToWorldSkewedOffestZ(int u, int v, Vector3 origin = default(Vector3))
+    public static Vector3 LogicToWorldSkewedOffsetZ(int u, int v, Vector3 origin = default(Vector3))
     {
         return u%2 == 1? new Vector3((u-v-0.5f) * Settings.offsetX,0,-((u+v+1.5f)*Settings.offsetZ)) + origin:new Vector3((u-v) * Settings.offsetX,0,-((u+v+1)*Settings.offsetZ)) + origin;
+    }
+
+    public static Vector3 WorldToWorldSkewedOffsetZ(Vector3 pos)
+    {
+        Vector2Int logicPos = WorldToLogicSkewed(pos);
+        return LogicToWorldSkewedOffsetZ(logicPos.x,logicPos.y);
     }
 
     public static Vector3 LogicToWorld(Vector2 v, Vector3 origin = default(Vector3))
@@ -40,7 +47,8 @@ public class Utilities
     public static Vector2Int WorldToLogicSkewed(Vector3 worldPos, Vector3 origin = default(Vector3))
     {
         int u = (int)((worldPos.x - origin.x)/(Settings.offsetX*2) - (worldPos.z - origin.z)/(Settings.offsetZ*2));
-        int v = u%2 == 1? (int)(((worldPos.z - origin.z + 0.5f * Settings.offsetZ)/(Settings.offsetZ*2) + (worldPos.x - origin.x + Settings.offsetX * 0.5)/(Settings.offsetX*2))*(-1)): (int)(((worldPos.z - origin.z + Settings.offsetZ * 0.5f)/(Settings.offsetZ*2) + (worldPos.x - origin.x + Settings.offsetX *0.5f)/(Settings.offsetX*2))*(-1));
+        int v = u%2 == 1? (int)(((worldPos.z - origin.z + 0.5f * Settings.offsetZ)/(Settings.offsetZ*2) + (worldPos.x - origin.x + Settings.offsetX * 0.5)/(Settings.offsetX*2))*(-1)):
+                        (int)(((worldPos.z - origin.z)/(Settings.offsetZ*2) + (worldPos.x - origin.x)/(Settings.offsetX*2))*(-1));
         return new Vector2Int(u,v);
     }
 
@@ -53,7 +61,8 @@ public class Utilities
     public static void WorldToLogicSkewed(Vector3 worldPos,out int u,out int v, Vector3 origin = default(Vector3))
     {
         u = (int)((worldPos.x - origin.x)/(Settings.offsetX*2) - (worldPos.z - origin.z)/(Settings.offsetZ*2));
-        v = u%2 == 1? (int)(((worldPos.z - origin.z + Settings.offsetZ * 0.5f)/(Settings.offsetZ*2) + (worldPos.x - origin.x + Settings.offsetX *0.5f)/(Settings.offsetX*2))*(-1)): (int)(((worldPos.z - origin.z)/(Settings.offsetZ*2) + (worldPos.x - origin.x)/(Settings.offsetX*2))*(-1));
+        v = u%2 == 1? (int)(((worldPos.z - origin.z + Settings.offsetZ * 0.5f)/(Settings.offsetZ*2) + (worldPos.x - origin.x + Settings.offsetX *0.5f)/(Settings.offsetX*2))*(-1)):
+                     (int)(((worldPos.z - origin.z)/(Settings.offsetZ*2) + (worldPos.x - origin.x)/(Settings.offsetX*2))*(-1));
     }
 
     public static TextMesh CreateWorldText(string text, Transform parent = null, Vector3 localPosition = default(Vector3), int fontSize = 10, Color? color = null, TextAnchor textAnchor = TextAnchor.MiddleCenter, TextAlignment textAlignment = TextAlignment.Left, int sortingOrder = 0) {

@@ -21,7 +21,6 @@ public class CameraManager : BaseManager
         {
             pastPos = MainCamera.transform.position;
         }
-        GameManager.Instance.cursorManager.CursorJudge();
         if(GameManager.Instance.cursorManager.mouseDrag)
         {
             //Debug.Log("MouseDrag");

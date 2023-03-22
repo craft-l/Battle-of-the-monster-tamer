@@ -33,16 +33,21 @@ public class GameManager : MonoBehaviour
         playerManager = new PlayerManager();
         cameraManager = new CameraManager();
         clientManager = new ClientManager();
+        mUIManager = new UIManager();
     }
 
     private void OnInit()
     {
+        cursorManager.OnInit();
         cameraManager.OnInit();
+        clientManager.OnInit();
     }
 
     private void OnUpdate()
     {
+        cursorManager.CursorJudge();
         cameraManager.OnUpdate();
+        clientManager.OnUpdate();
     }
 
     private void Awake()

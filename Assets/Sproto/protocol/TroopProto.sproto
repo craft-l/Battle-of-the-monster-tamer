@@ -1,0 +1,21 @@
+.package {
+  type 0 : integer
+  session 1 : integer
+}
+
+.Troop{
+  id 0 : integer
+  x 1: double
+  y 2: double
+  z 3: double
+}
+
+get_troop_target 1{
+  request {
+    troop 0 : Troop
+  }
+ response {
+        troop_list 0 : Troop
+    }
+
+}

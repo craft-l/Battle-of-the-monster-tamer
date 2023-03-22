@@ -102,7 +102,7 @@ public class GridISO <TGridObject>{
     }
     public Vector3 LogicToWorldOffsetZ(int u, int v)
     {
-        return Utilities.LogicToWorldSkewedOffestZ(u,v,originPosition);
+        return Utilities.LogicToWorldSkewedOffsetZ(u,v,originPosition);
     }
 
     public Vector2Int WorldToLogic(Vector3 worldPos)

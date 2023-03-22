@@ -45,8 +45,8 @@ public class Pathfinding
             foreach(PathNode pathNode in path)
             {
                 vectorPath.Add(grid.LogicToWorldOffsetZ(pathNode.u,pathNode.v));
-                Debug.Log("pathfinding:logic->"+pathNode.u+","+pathNode.v);
-                Debug.Log("pathfinding:World->"+grid.LogicToWorldOffsetZ(pathNode.u,pathNode.v));
+                //Debug.Log("pathfinding:logic->"+pathNode.u+","+pathNode.v);
+                //Debug.Log("pathfinding:World->"+grid.LogicToWorldOffsetZ(pathNode.u,pathNode.v));
             }
             return vectorPath;
         }

@@ -7,7 +7,7 @@ public class GridMapBuilder : MonoBehaviour
     private bool addValue = true;
     private void OnEnable()
     {
-        EventHandler.MouseClickedEvent += OnMouseClickEvent;
+        EventHandler.MouseClickedBlockEvent += OnMouseClickEvent;
     }
     void Start()
     {
@@ -56,10 +56,10 @@ public class GridMapBuilder : MonoBehaviour
         }
     }
     
-    void OnMouseClickEvent(Vector3 pos)
+    void OnMouseClickEvent(Vector3 worldPos)
     {
         //Instantiate(gridMap,GameManager.Instance.utilities.LogicToWorld(WorldToLogic(MouseWorldPosition())),Quaternion.identity,gridMapParent.transform);
-        gridMap.GetComponent<GridMapGrass>().UpdateMapVisual(Utilities.WorldToLogic(CursorManager.MouseWorldPosition),addValue);
+        gridMap.GetComponent<GridMapGrass>().UpdateMapVisual(Utilities.WorldToLogic(worldPos),addValue);
         
     }
 

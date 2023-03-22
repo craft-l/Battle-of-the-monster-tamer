@@ -8,6 +8,19 @@ public class GridBlock : MonoBehaviour
     public BlockData blockData = new BlockData();//数据存储
     public GridISO<BaseBlock> grid;
     public GameObject[,] blockBuilding = new GameObject[Settings.width,Settings.height];//地块上建筑和光标
+
+    private void OnEnable()
+    {
+        EventHandler.MouseClickedBlockEvent += OnMouseClickBlockEvent;
+    }
+
+    private void OnMouseClickBlockEvent(Vector3 worldPos)
+    {
+        Vector2Int pos = Utilities.WorldToLogicSkewed(worldPos);
+        Debug.Log("GridBlock: get"+worldPos);
+        EventHandler.CallBlockSelectedEvent(grid.GetGridObject(pos.x,pos.y));
+    }
+
     private void Awake()
     {
         GridInit();
@@ -46,7 +59,7 @@ public class GridBlock : MonoBehaviour
             {
                 if(grid.GetGridObject(x,z).mBlockType != BlockType.Empty)
                 {
-                    blockBuilding[x,z] = Instantiate(Resources.Load<GameObject>(path+grid.GetGridObject(x,z).mBlockType.ToString()+"/"+grid.GetGridObject(x,z).mLevel.ToString()),Utilities.LogicToWorldSkewedOffestZ(x,z),Quaternion.identity,transform);      
+                    blockBuilding[x,z] = Instantiate(Resources.Load<GameObject>(path+grid.GetGridObject(x,z).mBlockType.ToString()+"/"+grid.GetGridObject(x,z).mLevel.ToString()),Utilities.LogicToWorldSkewedOffsetZ(x,z),Quaternion.identity,transform);      
                 }
             }
         }

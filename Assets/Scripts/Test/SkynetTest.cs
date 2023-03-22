@@ -18,13 +18,8 @@ public class SkynetTest : MonoBehaviour
             Debug.Log("connect result: " + NetCore.connected);
             if(NetCore.connected)
             {
-                SendSayHello();
+
             }
-        });
-        NetReceiver.AddHandler<Protocol.heartbeat>((data) =>
-        {
-            Debug.Log("收到服务端的heartbeat消息");
-            return null;
         });
 
     }
@@ -36,15 +31,5 @@ public class SkynetTest : MonoBehaviour
         NetCore.Dispatch();
     }
 
-    void SendSayHello()
-    {
-        var req = new SprotoType.sayhello.request();
-        req.what = "Hi, I am Unity!";
-        Debug.Log("发送sayhello消息给服务端");
-        NetSender.Send<Protocol.sayhello>(req, (data) =>
-        {
-            var rsp = data as SprotoType.sayhello.response;
-            Debug.LogFormat("服务端sayhello返回, error_code: {0}, msg: {1}", rsp.error_code, rsp.msg);
-        });
-    }
+
 }
